@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import { connect } from 'react-redux';
-import { getData } from '../redux/actions/dataAction';
+import { getData } from '../redux/actions/userAction';
 
 function Index({ getData }) {
     const [loading, setLoading] = useState(true);
